@@ -1,0 +1,907 @@
+{
+  "regions": {
+    "카리": "카리브해",
+    "멕시": "멕시코", 
+    "영국": "영국",
+    "플랑": "플랑드르",
+    "독일": "독일",
+    "북유": "북유럽",
+    "포르": "포르투갈",
+    "스페": "스페인",
+    "이탈": "이탈리아",
+    "이집": "이집트",
+    "그리": "그리스",
+    "터키": "터키",
+    "서아": "서아프리카",
+    "동아": "동아프리카",
+    "인도": "인도",
+    "아랍": "아랍",
+    "인네": "인도네시아",
+    "인차": "인도차이나",
+    "중국": "중국",
+    "조선": "조선",
+    "일본": "일본"
+  },
+  "cities": [
+    {
+      "name": "런던",
+      "culture": "영국",
+      "region_code": "영국",
+      "coordinates": "북51 서0",
+      "development": 4200,
+      "military": 4200,
+      "specialties": ["석탄", "양모", "모직물", "철포", "대포"],
+      "type": "도시"
+    },
+    {
+      "name": "브리스틀",
+      "culture": "영국",
+      "region_code": "영국",
+      "coordinates": "북51 서3",
+      "development": 1500,
+      "military": 1700,
+      "specialties": ["쇠고기", "도검", "양모", "주석 광석", "모직물"],
+      "type": "조선소"
+    },
+    {
+      "name": "암스테르담",
+      "culture": "플랑드르",
+      "region_code": "플랑",
+      "coordinates": "북52 동5",
+      "development": 3900,
+      "military": 2700,
+      "specialties": ["치즈", "유리", "도자기", "모직물"],
+      "type": "도시"
+    },
+    {
+      "name": "브뤼주",
+      "culture": "플랑드르",
+      "region_code": "플랑",
+      "coordinates": "북51 동2",
+      "development": 2300,
+      "military": 1900,
+      "specialties": ["석탄", "밀", "마", "마직물", "철포"],
+      "type": null
+    },
+    {
+      "name": "낭트",
+      "culture": "프랑스",
+      "region_code": "플랑",
+      "coordinates": "북45 서1",
+      "development": 2200,
+      "military": 2000,
+      "specialties": ["치즈", "소금", "살타나", "와인"],
+      "type": null
+    },
+    {
+      "name": "함부르크",
+      "culture": "독일",
+      "region_code": "독일",
+      "coordinates": "북53 동8",
+      "development": 3900,
+      "military": 3100,
+      "specialties": ["어육", "쇠고기", "브랜디", "철광석", "호박(食)"],
+      "type": "도시"
+    },
+    {
+      "name": "뤼베크",
+      "culture": "독일",
+      "region_code": "독일",
+      "coordinates": "북54 동10",
+      "development": 3500,
+      "military": 2800,
+      "specialties": ["밀", "쇠고기", "브랜디", "철광석", "은"],
+      "type": "조선소"
+    },
+    {
+      "name": "스톡홀름",
+      "culture": "북유럽",
+      "region_code": "북유",
+      "coordinates": "북59 동18",
+      "development": 2600,
+      "military": 2400,
+      "specialties": ["어육", "목재", "도검", "구리광석"],
+      "type": "도시"
+    },
+    {
+      "name": "오슬로",
+      "culture": "북유럽",
+      "region_code": "북유",
+      "coordinates": "북59 동10",
+      "development": 2800,
+      "military": 2400,
+      "specialties": ["어육", "갑주", "목재"],
+      "type": null
+    },
+    {
+      "name": "코펜하겐",
+      "culture": "북유럽",
+      "region_code": "북유",
+      "coordinates": "북55 동12",
+      "development": 3400,
+      "military": 2700,
+      "specialties": ["쇠고기", "유리", "대포"],
+      "type": "조선소"
+    },
+    {
+      "name": "리가",
+      "culture": "북유럽",
+      "region_code": "북유",
+      "coordinates": "북57 동23",
+      "development": 2500,
+      "military": 2200,
+      "specialties": ["밀", "감자", "모피", "호박", "왁스"],
+      "type": null
+    },
+    {
+      "name": "리스본",
+      "culture": "포르투갈",
+      "region_code": "포르",
+      "coordinates": "북38 서8",
+      "development": 5900,
+      "military": 4100,
+      "specialties": ["소금", "올리브유", "사프란", "아몬드", "철포"],
+      "type": "도시"
+    },
+    {
+      "name": "세우타",
+      "culture": "포르투갈",
+      "region_code": "포르",
+      "coordinates": "북35 서5",
+      "development": 700,
+      "military": 1400,
+      "specialties": ["야자유", "용연향", "상아", "피혁"],
+      "type": null
+    },
+    {
+      "name": "마데이라",
+      "culture": "포르투갈",
+      "region_code": "포르",
+      "coordinates": "북32 서16",
+      "development": 700,
+      "military": 400,
+      "specialties": ["설탕", "야자유", "살타나", "와인"],
+      "type": null
+    },
+    {
+      "name": "세빌리아",
+      "culture": "스페인",
+      "region_code": "스페",
+      "coordinates": "북36 서6",
+      "development": 5100,
+      "military": 5600,
+      "specialties": ["벨벳", "면직물", "철포", "갑주", "꿀"],
+      "type": "도시"
+    },
+    {
+      "name": "라스팔마스",
+      "culture": "스페인",
+      "region_code": "스페",
+      "coordinates": "북28 서16",
+      "development": 500,
+      "military": 600,
+      "specialties": ["어육", "야자유", "토마토"],
+      "type": null
+    },
+    {
+      "name": "발렌시아",
+      "culture": "스페인",
+      "region_code": "스페",
+      "coordinates": "북39 서0",
+      "development": 2200,
+      "military": 2700,
+      "specialties": ["소금", "양모", "아몬드", "도자기", "모직물"],
+      "type": null
+    },
+    {
+      "name": "제노바",
+      "culture": "이탈리아",
+      "region_code": "이탈",
+      "coordinates": "북44 동8",
+      "development": 4100,
+      "military": 3500,
+      "specialties": ["치즈", "모직물", "갑주", "생사", "견직물"],
+      "type": "도시"
+    },
+    {
+      "name": "나폴리",
+      "culture": "이탈리아",
+      "region_code": "이탈",
+      "coordinates": "북40 동14",
+      "development": 2200,
+      "military": 2500,
+      "specialties": ["유리", "골동품", "올리브유", "와인", "밀"],
+      "type": null
+    },
+    {
+      "name": "마르세이유",
+      "culture": "이탈리아",
+      "region_code": "이탈",
+      "coordinates": "북43 동4",
+      "development": 5100,
+      "military": 5600,
+      "specialties": ["치즈", "소금", "상감세공", "사프란", "꿀"],
+      "type": null
+    },
+    {
+      "name": "시라쿠사",
+      "culture": "이탈리아",
+      "region_code": "이탈",
+      "coordinates": "북37 동14",
+      "development": 2800,
+      "military": 1950,
+      "specialties": ["밀", "와인", "올리브유", "살타나"],
+      "type": "조선소"
+    },
+    {
+      "name": "베네치아",
+      "culture": "이탈리아",
+      "region_code": "이탈",
+      "coordinates": "북45 동12",
+      "development": 4400,
+      "military": 3300,
+      "specialties": ["와인", "벨벳", "조각", "유리", "수정"],
+      "type": null
+    },
+    {
+      "name": "아테네",
+      "culture": "그리스",
+      "region_code": "그리",
+      "coordinates": "북38 동23",
+      "development": 2200,
+      "military": 2000,
+      "specialties": ["올리브유", "살타나", "회화", "조각", "토마토"],
+      "type": "도시"
+    },
+    {
+      "name": "크레타",
+      "culture": "그리스",
+      "region_code": "그리",
+      "coordinates": "북35 동25",
+      "development": 1600,
+      "military": 1800,
+      "specialties": ["와인", "올리브유", "토마토", "담배"],
+      "type": null
+    },
+    {
+      "name": "키프로스",
+      "culture": "그리스",
+      "region_code": "그리",
+      "coordinates": "북35 동33",
+      "development": 1200,
+      "military": 1500,
+      "specialties": ["밀", "올리브유", "아몬드", "담배"],
+      "type": null
+    },
+    {
+      "name": "이스탄불",
+      "culture": "터키",
+      "region_code": "터키",
+      "coordinates": "북41 동28",
+      "development": 4900,
+      "military": 5800,
+      "specialties": ["유황", "융단", "골동품", "정향", "캐비어"],
+      "type": "도시"
+    },
+    {
+      "name": "라구사",
+      "culture": "터키",
+      "region_code": "터키",
+      "coordinates": "북43 동16",
+      "development": 1500,
+      "military": 1100,
+      "specialties": ["대두", "올리브유", "대황", "토마토", "담배"],
+      "type": null
+    },
+    {
+      "name": "베이루트",
+      "culture": "터키",
+      "region_code": "터키",
+      "coordinates": "북34 동35",
+      "development": 1900,
+      "military": 2100,
+      "specialties": ["유리", "목재", "융단", "계피", "담배"],
+      "type": "술집無"
+    },
+    {
+      "name": "알렉산드리아",
+      "culture": "이집트",
+      "region_code": "이집",
+      "coordinates": "북31 동30",
+      "development": 4000,
+      "military": 3200,
+      "specialties": ["야자유", "면화", "마", "골동품", "후추"],
+      "type": "도시"
+    },
+    {
+      "name": "트리폴리",
+      "culture": "이집트",
+      "region_code": "이집",
+      "coordinates": "북32 동13",
+      "development": 1700,
+      "military": 1800,
+      "specialties": ["면화", "마", "금", "조금세공", "면직물"],
+      "type": null
+    },
+    {
+      "name": "알제",
+      "culture": "이집트",
+      "region_code": "이집",
+      "coordinates": "북36 동2",
+      "development": 2500,
+      "military": 2800,
+      "specialties": ["올리브유", "럼주", "아몬드", "상아", "조금세공"],
+      "type": "조선소"
+    },
+    {
+      "name": "튀니스",
+      "culture": "이집트",
+      "region_code": "이집",
+      "coordinates": "북37 동9",
+      "development": 3000,
+      "military": 2700,
+      "specialties": ["철광석", "마", "코뿔소뿔", "마직물"],
+      "type": null
+    },
+    {
+      "name": "산죠르제",
+      "culture": "서아프리카",
+      "region_code": "서아",
+      "coordinates": "북6 동3",
+      "development": 1800,
+      "military": 1700,
+      "specialties": ["금", "면화", "상아", "카카오", "커피"],
+      "type": "도시"
+    },
+    {
+      "name": "베르데",
+      "culture": "서아프리카",
+      "region_code": "서아",
+      "coordinates": "북14 서17",
+      "development": 250,
+      "military": 350,
+      "specialties": ["면화", "구리광석", "소금", "타마린드", "바나나"],
+      "type": null
+    },
+    {
+      "name": "르완다",
+      "culture": "서아프리카",
+      "region_code": "서아",
+      "coordinates": "남9 동13",
+      "development": 300,
+      "military": 200,
+      "specialties": ["산호", "호박", "다이아", "백금", "커피"],
+      "type": null
+    },
+    {
+      "name": "시에라리온",
+      "culture": "서아프리카",
+      "region_code": "서아",
+      "coordinates": "북9 서13",
+      "development": 450,
+      "military": 300,
+      "specialties": ["소금", "금", "면화", "피혁"],
+      "type": null
+    },
+    {
+      "name": "상투메",
+      "culture": "서아프리카",
+      "region_code": "서아",
+      "coordinates": "북0 동6",
+      "development": 300,
+      "military": 100,
+      "specialties": ["설탕", "상아", "모피"],
+      "type": null
+    },
+    {
+      "name": "소팔라",
+      "culture": "동아프리카",
+      "region_code": "동아",
+      "coordinates": "남24 동34",
+      "development": 2200,
+      "military": 2700,
+      "specialties": ["유향", "커피", "상아", "담배", "백금"],
+      "type": "도시"
+    },
+    {
+      "name": "마다가스카르",
+      "culture": "동아프리카",
+      "region_code": "동아",
+      "coordinates": "남15 동45",
+      "development": 200,
+      "military": 100,
+      "specialties": ["모피", "목재", "타마린드"],
+      "type": null
+    },
+    {
+      "name": "케이프타운",
+      "culture": "동아프리카",
+      "region_code": "동아",
+      "coordinates": "남34 동18",
+      "development": 250,
+      "military": 700,
+      "specialties": ["철광석", "피혁", "다이아", "금", "바나나"],
+      "type": null
+    },
+    {
+      "name": "모잠비크",
+      "culture": "동아프리카",
+      "region_code": "동아",
+      "coordinates": "남14 동40",
+      "development": 1500,
+      "military": 1900,
+      "specialties": ["커피", "상아", "산호", "에메랄드", "유리"],
+      "type": "조선소"
+    },
+    {
+      "name": "모가디슈",
+      "culture": "동아프리카",
+      "region_code": "동아",
+      "coordinates": "북2 동44",
+      "development": 1400,
+      "military": 1600,
+      "specialties": ["금", "유향", "루비", "구리광석", "차"],
+      "type": null
+    },
+    {
+      "name": "몸바사",
+      "culture": "동아프리카",
+      "region_code": "동아",
+      "coordinates": "남3 동39",
+      "development": 700,
+      "military": 700,
+      "specialties": ["코뿔소뿔", "유향", "산호", "피멘트"],
+      "type": null
+    },
+    {
+      "name": "바스라",
+      "culture": "아랍",
+      "region_code": "아랍",
+      "coordinates": "북30 동47",
+      "development": 3500,
+      "military": 3600,
+      "specialties": ["쇠고기", "치즈", "야자유", "초석", "융단"],
+      "type": "도시"
+    },
+    {
+      "name": "아덴",
+      "culture": "아랍",
+      "region_code": "아랍",
+      "coordinates": "북13 동45",
+      "development": 2800,
+      "military": 2900,
+      "specialties": ["밀", "야자유", "커피", "호박", "골동품"],
+      "type": "술집無,조선소"
+    },
+    {
+      "name": "무스카트",
+      "culture": "아랍",
+      "region_code": "아랍",
+      "coordinates": "북23 동58",
+      "development": 2300,
+      "military": 2400,
+      "specialties": ["어육", "야자유", "마직물", "꿀"],
+      "type": "술집無"
+    },
+    {
+      "name": "호르무즈",
+      "culture": "아랍",
+      "region_code": "아랍",
+      "coordinates": "북27 동56",
+      "development": 2000,
+      "military": 2500,
+      "specialties": ["야자유", "면화", "유황", "사향", "융단"],
+      "type": null
+    },
+    {
+      "name": "소코트라",
+      "culture": "아랍",
+      "region_code": "아랍",
+      "coordinates": "북12 동54",
+      "development": 400,
+      "military": 400,
+      "specialties": ["야자유", "어육", "용연향"],
+      "type": "술집無"
+    },
+    {
+      "name": "캘리컷",
+      "culture": "인도",
+      "region_code": "인도",
+      "coordinates": "북10 동76",
+      "development": 4000,
+      "military": 2700,
+      "specialties": ["육두구", "면화", "편사", "하석"],
+      "type": "도시"
+    },
+    {
+      "name": "고아",
+      "culture": "인도",
+      "region_code": "인도",
+      "coordinates": "북14 동74",
+      "development": 3200,
+      "military": 2800,
+      "specialties": ["후추", "면화", "면직물", "편사", "청금석"],
+      "type": "조선소"
+    },
+    {
+      "name": "세이론",
+      "culture": "인도",
+      "region_code": "인도",
+      "coordinates": "북6 동79",
+      "development": 2500,
+      "military": 2300,
+      "specialties": ["계피", "바닐라", "차", "사파이어", "루비"],
+      "type": null
+    },
+    {
+      "name": "캘커타",
+      "culture": "인도",
+      "region_code": "인도",
+      "coordinates": "북22 동87",
+      "development": 1800,
+      "military": 1400,
+      "specialties": ["쌀", "편사", "하석", "철광석", "차"],
+      "type": null
+    },
+    {
+      "name": "아바",
+      "culture": "인도",
+      "region_code": "인도",
+      "coordinates": "북16 동96",
+      "development": 1200,
+      "military": 1100,
+      "specialties": ["라이치", "별갑", "수정", "비취", "목재"],
+      "type": null
+    },
+    {
+      "name": "디우",
+      "culture": "인도",
+      "region_code": "인도",
+      "coordinates": "북21 동70",
+      "development": 1100,
+      "military": 1100,
+      "specialties": ["쌀", "어육", "설탕", "용연향", "견직물"],
+      "type": null
+    },
+    {
+      "name": "마드라스",
+      "culture": "인도",
+      "region_code": "인도",
+      "coordinates": "북13 동80",
+      "development": 1100,
+      "military": 700,
+      "specialties": ["면화", "다이아", "사파이어", "인디고", "계피"],
+      "type": null
+    },
+    {
+      "name": "마술리파트남",
+      "culture": "인도",
+      "region_code": "인도",
+      "coordinates": "북16 동82",
+      "development": 900,
+      "military": 700,
+      "specialties": ["편사", "청금석", "빈랑", "초석"],
+      "type": null
+    },
+    {
+      "name": "말라카",
+      "culture": "인도차이나",
+      "region_code": "인차",
+      "coordinates": "북2 동101",
+      "development": 3000,
+      "military": 2800,
+      "specialties": ["계피", "생강", "빈랑", "치클", "망고스틴"],
+      "type": "도시"
+    },
+    {
+      "name": "브루네이",
+      "culture": "인도차이나",
+      "region_code": "인차",
+      "coordinates": "북3 동111",
+      "development": 500,
+      "military": 400,
+      "specialties": ["육두구", "치클", "정향", "후추", "망고스틴"],
+      "type": null
+    },
+    {
+      "name": "마닐라",
+      "culture": "인도차이나",
+      "region_code": "인차",
+      "coordinates": "북14 동120",
+      "development": 200,
+      "military": 300,
+      "specialties": ["쌀", "육두구", "금", "정향", "후추"],
+      "type": null
+    },
+    {
+      "name": "기아딘",
+      "culture": "인도차이나",
+      "region_code": "인차",
+      "coordinates": "북10 동107",
+      "development": 400,
+      "military": 300,
+      "specialties": ["쌀", "산호", "진주", "주석광석", "호박(食)"],
+      "type": null
+    },
+    {
+      "name": "바타비아",
+      "culture": "인도네시아",
+      "region_code": "인네",
+      "coordinates": "남6 동107",
+      "development": 2800,
+      "military": 2800,
+      "specialties": ["쌀", "키니네", "인디고", "울금"],
+      "type": "도시"
+    },
+    {
+      "name": "팔렘방",
+      "culture": "인도네시아",
+      "region_code": "인네",
+      "coordinates": "남1 동104",
+      "development": 2400,
+      "military": 2300,
+      "specialties": ["빈랑", "백단향", "목재", "치클", "커피"],
+      "type": null
+    },
+    {
+      "name": "테르나테",
+      "culture": "인도네시아",
+      "region_code": "인네",
+      "coordinates": "북1 동127",
+      "development": 1800,
+      "military": 1200,
+      "specialties": ["바나나", "후추", "육두구", "정향"],
+      "type": "조선소"
+    },
+    {
+      "name": "암보이나",
+      "culture": "인도네시아",
+      "region_code": "인네",
+      "coordinates": "남3 동127",
+      "development": 2300,
+      "military": 1400,
+      "specialties": ["정향", "육두구", "계피", "울금", "후추"],
+      "type": null
+    },
+    {
+      "name": "아친",
+      "culture": "인도네시아",
+      "region_code": "인네",
+      "coordinates": "북5 동97",
+      "development": 900,
+      "military": 900,
+      "specialties": ["육두구", "타마린드", "커피"],
+      "type": null
+    },
+    {
+      "name": "반자르마신",
+      "culture": "인도네시아",
+      "region_code": "인네",
+      "coordinates": "남3 동114",
+      "development": 400,
+      "military": 200,
+      "specialties": ["주석광석", "바나나", "망고스틴"],
+      "type": null
+    },
+    {
+      "name": "마카사르",
+      "culture": "인도네시아",
+      "region_code": "인네",
+      "coordinates": "남4 동119",
+      "development": 300,
+      "military": 300,
+      "specialties": ["바나나", "산호", "울금"],
+      "type": null
+    },
+    {
+      "name": "수라비아",
+      "culture": "인도네시아",
+      "region_code": "인네",
+      "coordinates": "남7 동112",
+      "development": 500,
+      "military": 400,
+      "specialties": ["대황", "어육", "상어지느"],
+      "type": null
+    },
+    {
+      "name": "메나도",
+      "culture": "인도네시아",
+      "region_code": "인네",
+      "coordinates": "북1 동124",
+      "development": 500,
+      "military": 400,
+      "specialties": ["망고스틴", "어육", "쌀", "야자유", "상어지느"],
+      "type": null
+    },
+    {
+      "name": "항주",
+      "culture": "중국",
+      "region_code": "중국",
+      "coordinates": "북30 동120",
+      "development": 3600,
+      "military": 3800,
+      "specialties": ["도자기", "견직물", "사향", "비취", "동충하초"],
+      "type": "도시"
+    },
+    {
+      "name": "기주",
+      "culture": "중국",
+      "region_code": "중국",
+      "coordinates": "북34 동119",
+      "development": 1000,
+      "military": 1200,
+      "specialties": ["대두", "철광석", "생사", "소금"],
+      "type": null
+    },
+    {
+      "name": "천주",
+      "culture": "중국",
+      "region_code": "중국",
+      "coordinates": "북25 동119",
+      "development": 2800,
+      "military": 2500,
+      "specialties": ["차", "생사", "대황", "진주", "상어지느"],
+      "type": null
+    },
+    {
+      "name": "마카오",
+      "culture": "중국",
+      "region_code": "중국",
+      "coordinates": "북22 동113",
+      "development": 2900,
+      "military": 3000,
+      "specialties": ["라이치", "차", "도자기", "호박(食)", "생사"],
+      "type": "조선소"
+    },
+    {
+      "name": "한양",
+      "culture": "조선",
+      "region_code": "조선",
+      "coordinates": "북36 동126",
+      "development": 2400,
+      "military": 2700,
+      "specialties": ["개암", "도자기", "생사", "견직물", "인삼"],
+      "type": "도시"
+    },
+    {
+      "name": "오사카",
+      "culture": "일본",
+      "region_code": "일본",
+      "coordinates": "북34 동135",
+      "development": 2500,
+      "military": 2100,
+      "specialties": ["청주", "칠기", "상감세공", "생사", "진주"],
+      "type": null
+    },
+    {
+      "name": "나가사키",
+      "culture": "일본",
+      "region_code": "일본",
+      "coordinates": "북33 동129",
+      "development": 2600,
+      "military": 1800,
+      "specialties": ["은", "면직물", "회화", "별갑", "유리"],
+      "type": "조선소"
+    },
+    {
+      "name": "나하",
+      "culture": "일본",
+      "region_code": "일본",
+      "coordinates": "북26 동127",
+      "development": 1250,
+      "military": 1500,
+      "specialties": ["쌀", "설탕", "바나나"],
+      "type": null
+    },
+    {
+      "name": "하바나",
+      "culture": "카리브 해",
+      "region_code": "카리",
+      "coordinates": "북23 서82",
+      "development": 1200,
+      "military": 1000,
+      "specialties": ["설탕", "담배", "럼주", "구리광석", "커피"],
+      "type": "도시"
+    },
+    {
+      "name": "산토도밍고",
+      "culture": "카리브 해",
+      "region_code": "카리",
+      "coordinates": "북18 서69",
+      "development": 900,
+      "military": 700,
+      "specialties": ["토마토", "바나나", "설탕", "카카오", "담배"],
+      "type": "조선소"
+    },
+    {
+      "name": "산후안",
+      "culture": "카리브 해",
+      "region_code": "카리",
+      "coordinates": "북18 서66",
+      "development": 700,
+      "military": 800,
+      "specialties": ["설탕", "럼주", "산호", "바나나", "커피"],
+      "type": null
+    },
+    {
+      "name": "자메이카",
+      "culture": "카리브 해",
+      "region_code": "카리",
+      "coordinates": "북18 서76",
+      "development": 800,
+      "military": 500,
+      "specialties": ["어육", "설탕", "카카오", "럼주", "커피"],
+      "type": null
+    },
+    {
+      "name": "베라쿠르스",
+      "culture": "멕시코",
+      "region_code": "멕시",
+      "coordinates": "북19 서96",
+      "development": 2300,
+      "military": 2500,
+      "specialties": ["옥수수", "바닐라", "피멘트", "금", "은"],
+      "type": "도시"
+    },
+    {
+      "name": "메리다",
+      "culture": "멕시코",
+      "region_code": "멕시",
+      "coordinates": "북21 서89",
+      "development": 1400,
+      "military": 900,
+      "specialties": ["호박(食)", "토마토", "고추", "비취", "치클"],
+      "type": null
+    },
+    {
+      "name": "트루히요",
+      "culture": "멕시코",
+      "region_code": "멕시",
+      "coordinates": "북15 서85",
+      "development": 400,
+      "military": 300,
+      "specialties": ["옥수수", "담배", "산호", "코치닐", "피멘트"],
+      "type": null
+    },
+    {
+      "name": "포르투벨류",
+      "culture": "멕시코",
+      "region_code": "멕시",
+      "coordinates": "북9 서80",
+      "development": 100,
+      "military": 200,
+      "specialties": ["옥수수", "감자", "카카오", "구아노", "바나나"],
+      "type": "조선소"
+    },
+    {
+      "name": "말라카이보",
+      "culture": "멕시코",
+      "region_code": "멕시",
+      "coordinates": "북11 서71",
+      "development": 900,
+      "military": 700,
+      "specialties": ["호박(食)", "에메랄드", "쇠고기", "진주", "커피"],
+      "type": null
+    },
+    {
+      "name": "페르남부쿠",
+      "culture": "멕시코",
+      "region_code": "멕시",
+      "coordinates": "남7 서34",
+      "development": 700,
+      "military": 900,
+      "specialties": ["옥수수", "금", "목재", "피혁", "커피"],
+      "type": "조선소"
+    },
+    {
+      "name": "카옌",
+      "culture": "멕시코",
+      "region_code": "멕시",
+      "coordinates": "북5 서53",
+      "development": 300,
+      "military": 200,
+      "specialties": ["토마토", "고추", "바닐라", "카카오", "은"],
+      "type": null
+    }
+  ]
+} 
