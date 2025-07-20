@@ -134,12 +134,14 @@ const cityRows = parseCSV(cityCSV);
 const missingCultureCities = [];
 cityRows.forEach(row => {
   let culture = manualCultureMap[row['도시명']] || inferCulture(row['도시명']) || row['문화권'] || '';
+  const region_code = cultureToPriceHeader[culture] || '';
   if (!culture || culture.trim() === '') {
     missingCultureCities.push(row['도시명']);
   }
   const city = {
     name: row['도시명'],
     culture,
+    region_code, // region_code 필드 추가
     coordinates: parseCoordinates(row['좌표']),
     development: parseInt(String(row['발전']).replace(/,/g, ''), 10) || 0,
     military: parseInt(String(row['무장']).replace(/,/g, ''), 10) || 0,
